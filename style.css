@@ -1,0 +1,235 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    font-family: "Inter", sans-serif;
+}
+
+wrapper {
+    width: 100vw;
+    height: 100vh;
+}
+
+main {
+    height: 560px;
+    background-image: url(./assets/background-top-menu.svg);
+    background-size: cover;
+
+    #logo-dnc {
+        padding-top: 52px;
+        margin-left: 56px;
+        background: transparent;
+    }
+
+    .title-main {
+        font-size: 40px;
+        font-weight: 700;
+        line-height: 51.4px;
+        text-align: left;
+        margin: 71px 0 0 172px;
+        width: 500px;
+        height: 102px;
+        color: rgba(255, 255, 255, 1);
+        background: transparent;
+    }
+
+    .paragraph-main {
+        font-size: 20px;
+        font-weight: 400;
+        line-height: 30px;
+        text-align: left;
+        margin: 32px 0 0 172px;
+        width: 470px;
+        height: 90px;
+        color: rgba(255, 255, 255, 1);
+        background: transparent;
+    }
+}
+
+#information-menu {
+    background: rgba(234, 236, 229, 1);
+    width: auto;
+    height: 170px;
+    display: flex;
+    /* Usando Flexbox para alinhar os artigos lado a lado */
+    justify-content: space-between;
+    /* Ajusta o espaço entre os itens */
+    align-items: center;
+    /* Alinha os itens verticalmente no centro */
+    padding: 0px 170px 0;
+
+    article {
+        display: flex;
+        /* Flexbox para alinhar o ícone e o texto em linha */
+        align-items: center;
+        /* Alinha o ícone e o texto verticalmente no centro */
+    }
+
+    .icons {
+        width: 40px;
+        height: 40px;
+        margin-right: 12px;
+    }
+
+    .icon-texts {
+        font-size: 20px;
+        font-weight: 400;
+        line-height: 30px;
+        text-align: center;
+        width: auto;
+    }
+}
+
+.video-section {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    margin: 80px auto;
+
+    .texts-section-video {
+        margin-left: 64px;
+    }
+
+    .title-section-video {
+        color: rgba(36, 123, 160, 1);
+        width: 440px;
+        height: 95px;
+        font-weight: 700;
+        line-height: 38px;
+        text-align: left;
+        font-size: 32px;
+    }
+
+    .text-section-video {
+        color: rgba(56, 56, 56, 1);
+        width: 496px;
+        height: 144px;
+        font-size: 16px;
+        font-weight: 400;
+        line-height: 24px;
+        text-align: left;
+    }
+}
+
+.review-carousel {
+    height: 444px;
+    width: auto;
+    background-color: rgba(36, 123, 160, 1);
+    text-align: center;
+
+    h1 {
+        display: inline-flex;
+        margin: 80px auto 64px;
+        justify-content: center;
+        color: #FFFF;
+        font-size: 32px;
+        font-weight: 700;
+        line-height: 48px;
+
+    }
+
+    article {
+        display: flex;
+        justify-content: center;
+        text-align: center;
+        gap: 33px;
+    }
+
+    .cards {
+        filter: drop-shadow(1px 1px 5px #00000065);
+    }
+
+    #left-arrow {
+        display: none;
+        filter: drop-shadow(1px 0px 8px #00000065);
+        cursor: pointer;
+    }
+
+    #left-arrow:hover {
+        transform: translateY(-6px);
+        transition: 200ms linear;
+        transition-delay: 0ms;
+    }
+
+    #left-arrow:active {
+        opacity: 0.8;
+    }
+
+    #bruna-card {
+        display: flex;
+    }
+
+    #leonardo-card {
+        display: flex;
+    }
+
+    #samantha-card {
+        display: none;
+    }
+
+    #right-arrow {
+        filter: drop-shadow(1px 1px 3px #00000065);
+        cursor: pointer;
+    }
+
+    #right-arrow:hover {
+        transform: translateY(-6px);
+        transition: 200ms linear;
+        transition-delay: 0ms;
+    }
+
+    #right-arrow:active {
+        opacity: 0.8;
+    }
+}
+
+form {
+    h1 {
+        text-align: center;
+        padding-top: 22px;
+        color: rgba(56, 56, 56, 1);
+    }
+
+    .inputs {
+        display: block;
+        text-align: left;
+        margin: 39px auto;
+        padding: 15px;
+        font-size: 16px;
+        font-weight: 400;
+        line-height: 24px;
+        width: 413px;
+        height: 53px;
+        background: rgba(234, 236, 229, 1);
+        border: none;
+        border-radius: 10px;
+        filter: drop-shadow(1px 2px 3px rgba(0, 0, 0, 0.2));
+    }
+
+    button {
+        display: block;
+        margin: 40px auto 90px;
+        width: 335px;
+        height: 53px;
+        font-size: 16px;
+        font-weight: 700;
+        line-height: 24px;
+        text-align: center;
+        border: none;
+        border-radius: 10px;
+        color:rgba(255, 255, 255, 1);
+        background-color: rgba(36, 123, 160, 1);
+        filter: drop-shadow(1px 1px 3px rgba(0, 0, 0, 0.4));
+        cursor: pointer;
+    }
+
+    button:hover {
+        transition: 200ms linear;
+        scale: 1.04;
+    }
+
+    button:active {
+        opacity: 0.6;
+    }
+}
