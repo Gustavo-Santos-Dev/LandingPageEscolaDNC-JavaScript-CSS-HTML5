@@ -13,7 +13,7 @@
 <div width=auto height=auto align=center>
   <img src="https://img.shields.io/badge/Seja%20Bem%20Vindo!-0e1e42" />
   <img width="3">
-  <img src="https://img.shields.io/badge/Criado%20%E2%99%A5%20por-GuHenriqueSantos-025bf5.svg?style=flat-square)](https://github.com/dec0dOS" />
+  <img src="https://img.shields.io/badge/Criado%20%E2%99%A5%20por-Gustavo%20Santos-025bf5.svg?style=flat-square)](https://github.com/dec0dOS" />
 </div>
 <br>
 
@@ -32,12 +32,12 @@
 
 <!--- Link do projeto -->
 <p align="center">
-     <a href="https://dnc-landingpage-project.netlify.app/">📱 Viste o Projeto</a>
+     <a href="https://gustavo-santos-dev.github.io/LandingPageEscolaDNC-JavaScript-CSS-HTML5/">📱 Viste o Projeto</a>
 </p>
 <br>
 
 <!--- Imagens do projeto -->
-<h2 id="layout">🎨 Layout</h2>
+<h2 id="layout">🎨 Screenshots do projeto</h2>
 <p align="center">
     <img src="./assets/PrintLandingPage.png" alt="Imagem-Do-Projeto" width="100%">
 </p>
